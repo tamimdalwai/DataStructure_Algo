@@ -16,7 +16,7 @@ public class _01_isPrime {
 
     public 
 
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         System.out.println("the number is prime : "+isPrime(7));
         System.out.println("the number is prime : "+isPrime(8));
     }

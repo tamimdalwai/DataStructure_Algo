@@ -1,3 +1,5 @@
+package _01_Maths;
+
 public class _05_DecimaltoBinary {
 
     public static String convertDecimalToBinary(int N) {
@@ -12,12 +14,12 @@ public class _05_DecimaltoBinary {
             binary.append(remainder);
             N = N / 2;
         }
-        
+
         // Since the binary digits are obtained in reverse order, reverse the string
         return binary.reverse().toString();
     }
 
     public static void main(String[] args) {
-        System.out.println(convertDecimalToBinary(8));  // Example: Input decimal 10 should output binary "1010"
+        System.out.println(convertDecimalToBinary(8)); // Example: Input decimal 10 should output binary "1010"
     }
 }
